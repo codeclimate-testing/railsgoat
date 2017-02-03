@@ -16,6 +16,8 @@ engines:
     enabled: false
   rubocop:
     enabled: false
+  flog:
+    enabled: true
 ratings:
   paths:
   - app/**
