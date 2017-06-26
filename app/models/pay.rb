@@ -15,6 +15,6 @@ class Pay < ActiveRecord::Base
   end
 
   def encrypt_bank_account_num
-    self.bank_account_num = Encryption.encrypt_sensitive_value(self.bank_account_num)
+    puts self.bank_account_num = Encryption.encrypt_sensitive_value(self.bank_account_num)
   end
 end
