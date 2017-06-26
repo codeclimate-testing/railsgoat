@@ -15,7 +15,7 @@ engines:
   fixme:
     enabled: false
   rubocop:
-    enabled: false
+    enabled: true
 ratings:
   paths:
   - app/**
